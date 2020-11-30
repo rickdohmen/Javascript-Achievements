@@ -12,6 +12,7 @@
 
 In het het bestand  [index.html](index.html) houd je een overzicht bij van wat je hebt gedaan met linkjes naar de opdrachten.
 **Dit overzicht zet je op je eigen Ma Cloud website en houd je up-to-date!**
+http://30476.hosts1.ma-cloud.nl/f1m2ontwerp/clone%20java%20achievment/Javascript-Achievements/
 
 Plaats in deze readme een link naar het index bestand op je ma-cloud site.  
 **HIER de link plaatsen**
