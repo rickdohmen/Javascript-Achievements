@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>do date display</title>
+    <script>
+        function toonDatum(){
+     let datum = new date();
+     
+     let datum = document.getElementById("day").innerHTML = datum.setday();
+
+     let datum = document.getElementById("month").innerHTML = datum.setday();
+
+     let datum = document.getElementById("year").innerHTML = datum.setday();
+     }
+
+     window.addEventListener('DOMContentLoaded', toonDatum);
+    </script>
+ </head>
+ <body>
+     <div id = "day">
+     </div>
+     <div id = "month">
+     </div>
+     <div id = "year">
+     </div>
+ </body>
+</html>
