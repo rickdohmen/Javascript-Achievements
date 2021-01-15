@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang = "en">
- <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>do date display</title>
     <script>
-        function toonDatum(){
-     let datum = new date();
+    function toonDatum(){
      
-     let datum = document.getElementById("day").innerHTML = datum.setday();
+     let datum = new Date();
+     
+     document.getElementById("Day").innerHTML = datum.getDay();
 
-     let datum = document.getElementById("month").innerHTML = datum.setday();
+     document.getElementById("Month").innerHTML = datum.getMonth();
 
-     let datum = document.getElementById("year").innerHTML = datum.setday();
-     }
+     document.getElementById("Year").innerHTML = datum.getFullYear();
+    
+     alert("Het jaar is " + datum.getFullYear());
+    }
 
      window.addEventListener('DOMContentLoaded', toonDatum);
     </script>
- </head>
- <body>
-     <div id = "day">
-     </div>
-     <div id = "month">
-     </div>
-     <div id = "year">
-     </div>
- </body>
+</head>
+<body>
+    <div id= "Day">
+    </div>
+    <div id= "Month">
+    </div>
+    <div id= "Year">
+    </div>
+</body>
 </html>
